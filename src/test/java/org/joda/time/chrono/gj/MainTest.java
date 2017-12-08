@@ -15,6 +15,8 @@
  */
 package org.joda.time.chrono.gj;
 
+import java.security.SecureRandom;
+
 import java.util.Random;
 
 import junit.framework.TestCase;
