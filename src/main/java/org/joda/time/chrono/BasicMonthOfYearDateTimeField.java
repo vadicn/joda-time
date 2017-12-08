@@ -108,7 +108,7 @@ class BasicMonthOfYearDateTimeField extends ImpreciseDateTimeField {
         // Do not refactor without careful consideration.
         // Order of calculation is important.
         //
-        int yearToUse = thisYear;;
+        int yearToUse = thisYear;
         // Initially, monthToUse is zero-based
         int monthToUse = thisMonth - 1 + months;
         if (thisMonth > 0 && monthToUse < 0) {
