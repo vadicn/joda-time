@@ -15,6 +15,8 @@
  */
 package org.joda.time;
 
+import java.security.SecureRandom;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FilePermission;
